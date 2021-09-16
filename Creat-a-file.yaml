@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks: 
+  - name: Create a file using file module
+    file: 
+      path: /fooplayfile
+      state: touch
